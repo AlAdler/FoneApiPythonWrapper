@@ -8,9 +8,6 @@ import base64
 import requests
 
 class FoneApiClient(object):
-    '''
-    classdocs
-    '''
 
     NUMBER_DESTINATION_TYPE = "number"
     IP_DESTINATION_TYPE = "ip"
