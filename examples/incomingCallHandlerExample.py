@@ -6,7 +6,7 @@ Created on Jul 14, 2013
 
 from FoneApiPythonWrapper.CallBackResponse import CallBackResponse
 
-#call this function when foneapi call your incomingCallHandler service to get the json foneapi expects
+#call this function when foneapi invokes your incomingCallHandler service to get the json foneapi expects
 def handleIncomingCall(callerId):
     response = CallBackResponse()
     #connect the incoming call with another phone number
